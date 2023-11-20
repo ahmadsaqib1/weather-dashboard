@@ -1,0 +1,71 @@
+/* Apply custom styles to the custom-bg class*/
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgb(12, 12, 123) !important;
+}
+
+.city {
+  border: 1px solid black;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.current-weather {
+  margin: 1rem;
+  padding: 1 rem;
+}
+
+.card {
+  color: white;
+  background: rgb(45, 61, 76);
+  padding-left: 5px;
+  line-height: 30px;
+  border-radius: 0;
+  width: 18%;
+}
+
+.forecast-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-button {
+  background-color: rgb(24, 138, 219);
+  color: white;
+  border-radius: 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.input-group-append {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.weather-search {
+  border-radius: 10px !important;
+  padding: 10px;
+}
+
+.fiveDay-img {
+  height: 45px;
+  width: 48px;
+  border: 1px solid rgb(45, 61, 76);
+}
+
+.forecast-date {
+  padding-top: 5px;
+}
