@@ -21,7 +21,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Website
 
-https://github.com/ahmadsaqib1/weather-dashboard
+[https://github.com/ahmadsaqib1/weather-dashboard](https://ahmadsaqib1.github.io/weather-dashboard/)
 
 ## Contributions
 
