@@ -129,6 +129,9 @@ $(document).ready(function () {
 
       // Update the history list
       updateHistoryList(historyArray);
+
+      // Update the placeholder in the search input with the selected city
+      searchInput.attr("placeholder", data.name);
     }
   }
 
