@@ -2,13 +2,13 @@
 
 ## Overview
 
-This is a weather forecast application that enables users to access weather predictions for a selected city of their choice.
+This is a weather forecast application that enables users to access weather predictions for a selected city of their choice.On initial page load, the weather forecast will default to London's statistics.
 
 ## Website visuals
 
 The following image shows the web application's appearance and functionality:
 
-![weather dashboard UI](./demo/demo1.png)
+![default statistics](./demo/demo1.png)
 ![weather dashboard functionality](./demo/demo2.png)
 
 ## Technologies
