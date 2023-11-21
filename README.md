@@ -8,8 +8,8 @@ This is a weather forecast application that enables users to access weather pred
 
 The following image shows the web application's appearance and functionality:
 
-![weather dashboard UI](./demo/demo1.PNG)
-![weather dashboard functionality](./demo/demo2.PNG)
+![weather dashboard UI](./demo/demo1.png)
+![weather dashboard functionality](./demo/demo2.png)
 
 ## Technologies
 
