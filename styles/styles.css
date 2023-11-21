@@ -1,7 +1,8 @@
 /* Apply custom styles to the custom-bg class*/
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgb(12, 12, 123) !important;
+  /* background-color: rgb(12, 12, 123) !important;*/
+  background: linear-gradient(to right, #775be4, #0d0141);
 }
 
 .city {
@@ -19,7 +20,7 @@
 
 .card {
   color: white;
-  background: rgb(45, 61, 76);
+  background: rgb(57, 77, 95);
   padding-left: 5px;
   line-height: 30px;
   border-radius: 0;
@@ -61,11 +62,14 @@
 }
 
 .fiveDay-img {
-  height: 45px;
   width: 48px;
-  border: 1px solid rgb(45, 61, 76);
 }
 
 .forecast-date {
   padding-top: 5px;
+}
+
+.list-group-item {
+  background-color: rgb(208, 200, 200);
+  margin: 3px;
 }

@@ -38,7 +38,7 @@
                   class="form-input weather-search"
                   type="text"
                   id="search-input"
-                  placeholder="London"
+                  placeholder="city"
                   aria-labelledby="form-heading"
                   aria-controls="today forecast"
                 />
@@ -70,13 +70,13 @@
           >
             <div class="current-weather">
               <div class="d-flex">
-                <h2 id="city">London</h2>
-                <h3 id="date" class="date">(20/11/2023)</h3>
-                <img id="weather-icon"src="http://openweathermap.org/img/wn/04d.png"/>
-            </div>
-              <p>Temp:<span id="temp"></span>C</p>
-              <p>Wind:<span id="wind"></span> MPH</p>
-              <p>Humidity: <span id="humidity"></span>%</p>
+                <h2 id="city">City</h2>
+                <h3 id="date" class="date"></h3>
+                <img id="weather-icon"/>
+              </div>
+              <p><span id="temp">Temp:</span></p>
+              <p><span id="wind">Wind:</span></p>
+              <p><span id="humidity">Humidity:</span></p>
             </div>
           </section>
           <!--5-days forecast-->
@@ -86,9 +86,9 @@
             role="region"
             aria-live="polite"
           >
-            <h2>5-day Forecast:</h2>
-            <div class="forecast-row">
-              <div class="card forecast-date">
+            <h2>5-Day Forecast:</h2>
+            <div class="forecast-row ">
+              <div class="card ">
                 <h3>Date</h3>
                 <img class="fiveDay-img" alt="img"/>
                 <p>Temp:</p>
@@ -102,8 +102,8 @@
                 <p>Wind:</p>
                 <p>Humidity:</p>
               </div> 
-              <div class="card forecast-date">
-                <h3>Date</h3>
+              <div class="card ">
+                <h3 class="forecast-date">Date</h3>
                 <img class="fiveDay-img" alt="img"/>
                 <p>Temp:</p>
                 <p>Wind:</p>
